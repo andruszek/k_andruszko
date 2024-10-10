@@ -12,7 +12,7 @@
    ========================================================================== */
 
 
-/* General Styles */
+
 body {
   font-family: Arial, sans-serif;
   line-height: 1.6;
@@ -20,9 +20,11 @@ body {
   padding: 0;
   background-color: #f4f4f4;
   color: #333;
+
 }
 
-/* Header Styles */
+
+
 header {
   background-color: #613d7a;
   color: #fff;
@@ -35,7 +37,7 @@ header h1 {
   font-size: 36px;
 }
 
-/* Main Title and Subtitle Styles */
+
 h2 {
   color: #a75edb;
   text-align: center;
@@ -49,14 +51,14 @@ h3 {
   padding-left: 10px;
 }
 
-/* Paragraph Styles */
+
 p {
   margin: 15px;
   font-size: 18px;
   padding-left: 10px;
 }
 
-/* List of Services */
+
 ul {
   list-style-type: none;
   padding: 0;
@@ -71,7 +73,7 @@ ul li {
   font-size: 18px;
 }
 
-/* Footer Styles */
+
 footer {
   background-color: #613d7a;
   color: #fff;
@@ -79,7 +81,7 @@ footer {
   padding: 10px;
   position: absolute;
   width: 100%;
-  bottom: auto;
+  bottom: 0;
 }
 
 footer p {
@@ -92,4 +94,26 @@ img{
   height: 10%;
 
 
+}
+
+.przycisk-tekst {
+  text-align: center; 
+  margin: 20px 0; 
+}
+
+.button {
+  display: inline-block;              
+  padding: 12px 20px;               
+  font-size: 16px;                   
+  color: #fff;                       
+  background-color: #264653;        
+  border: none;                     
+  border-radius: 5px;          
+  text-decoration: none;      
+  text-align: center;        
+  transition: background-color 0.3s; 
+}
+
+.button:hover {
+  background-color: #2a9d8f;   
 }

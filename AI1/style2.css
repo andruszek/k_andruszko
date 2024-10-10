@@ -12,84 +12,102 @@
    ========================================================================== */
 
 
-/* General Styles */
+
 body {
   font-family: Courier New, Monospace;
-  line-height: 1.6;
+  line-height: 1.8;
   margin: 0;
   padding: 0;
-  background-color: #f4f4f4;
-  color: #333;
+  background-color: #e8f0f7;
+  color: #1a1a1a;
 }
 
-/* Header Styles */
+
 header {
-  background-color: #613d7a;
+  background-color: #2a9d8f;
   color: #fff;
-  padding: 20px;
-  text-align: center;
+  padding: 50px;
+  text-align: left;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 header h1 {
   margin: 0;
-  font-size: 36px;
+  font-size: 42px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
 }
 
-/* Main Title and Subtitle Styles */
+
 h2 {
-  color: #a75edb;
+  color: #e76f51;
   text-align: center;
-  margin-top: 20px;
+  margin-top: 40px;
+  font-size: 28px;
+  text-transform: capitalize;
+  border-bottom: 2px solid #2a9d8f;
+  display: inline-block;
+  padding-bottom: 10px;
 }
+
 
 h3 {
-  color: #555;
-  margin-top: 30px;
+  color: #264653;
+  margin-top: 40px;
   text-align: left;
-  padding-left: 10px;
+  padding-left: 15px;
+  font-size: 24px;
+  text-transform: uppercase;
 }
 
-/* Paragraph Styles */
+
 p {
-  margin: 15px;
-  font-size: 18px;
-  padding-left: 10px;
+  margin: 20px 40px;
+  font-size: 16px;
+  text-align: justify;
+  line-height: 1.8;
 }
 
-/* List of Services */
+
 ul {
-  list-style-type: none;
-  padding: 0;
-  margin-left: 25px;
+  list-style-type: disc;
+  padding-left: 40px;
+  margin: 20px 40px;
 }
 
 ul li {
-  background-color: #ddadff;
-  margin: 8px 0;
-  padding: 10px;
-  border-left: 5px solid #6A0DAD;
-  font-size: 18px;
+  background-color: #f4a261;
+  margin: 12px 0;
+  padding: 12px;
+  font-size: 16px;
+  border-left: 5px solid #264653; 
+  border-right: 2px solid #2a9d8f; 
+  border-radius: 5px; 
+  color: #fff;
 }
 
-/* Footer Styles */
+
 footer {
-  background-color: #613d7a;
-  color: #fff;
+  background-color: #264653;
+  color: #e9c46a;
   text-align: center;
-  padding: 10px;
-  position: absolute;
-  width: 100%;
-  bottom: auto;
+  padding: 20px;
+  font-size: 14px;
+  margin-top: 40px;
+  border-top: 4px solid #2a9d8f;
 }
 
 footer p {
-  margin: auto;
-  font-size: 14px;
+  margin: 0;
 }
 
-img{
-  width: 10%;
-  height: 10%;
 
-
+img {
+  width: 15%;
+  height: auto;
+  margin: 20px auto;
+  display: block;
+  border-radius: 50%;
+  border: 5px solid #264653;
 }
