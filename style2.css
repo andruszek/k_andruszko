@@ -1,0 +1,95 @@
+/*! HTML5 Boilerplate v9.0.1 | MIT License | https://html5boilerplate.com/ */
+
+/* main.css 3.0.0 | MIT License | https://github.com/h5bp/main.css#readme */
+/*
+ * What follows is the result of much research on cross-browser styling.
+ * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
+ * Kroc Camen, and the H5BP dev community and team.
+ */
+
+/* ==========================================================================
+   Base styles: opinionated defaults
+   ========================================================================== */
+
+
+/* General Styles */
+body {
+  font-family: Courier New, Monospace;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+/* Header Styles */
+header {
+  background-color: #613d7a;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 36px;
+}
+
+/* Main Title and Subtitle Styles */
+h2 {
+  color: #a75edb;
+  text-align: center;
+  margin-top: 20px;
+}
+
+h3 {
+  color: #555;
+  margin-top: 30px;
+  text-align: left;
+  padding-left: 10px;
+}
+
+/* Paragraph Styles */
+p {
+  margin: 15px;
+  font-size: 18px;
+  padding-left: 10px;
+}
+
+/* List of Services */
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin-left: 25px;
+}
+
+ul li {
+  background-color: #ddadff;
+  margin: 8px 0;
+  padding: 10px;
+  border-left: 5px solid #6A0DAD;
+  font-size: 18px;
+}
+
+/* Footer Styles */
+footer {
+  background-color: #613d7a;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  position: absolute;
+  width: 100%;
+  bottom: auto;
+}
+
+footer p {
+  margin: auto;
+  font-size: 14px;
+}
+
+img{
+  width: 10%;
+  height: 10%;
+
+
+}
