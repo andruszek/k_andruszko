@@ -3,53 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="style.css">
+    <script defer src="skrypt.js"></script>
     <title>Lab2</title>
 </head>
 <body>
 
 <div class="wyszukiwarka">
-    <i>&#x1F50E;</i><input type="text" id="wyszukaj" name="wyszukaj">
+   <input type="text" id="search" name="search" placeholder="Wyszukaj zadanie...">
 </div>
 
-
-<div class="cont1">
-    <div class="task">
-    <input type="checkbox" >
-    <label> Tu jest jakeis zadanie</label>
-    <input type="date">
-    <i>&#9747;</i>
-    <br>
-    </div>
+<div id="taskContainer" class="cont1">
 </div>
-
-<div class="cont1">
-    <div class="task">
-        <input type="checkbox" >
-        <label> Tu jest jakeis zadanie</label>
-        <input type="date">
-        <i>&#9747;</i>
-        <br>
-    </div>
-</div>
-
-<div class="cont1">
-    <div class="task">
-        <input type="checkbox" >
-        <label> Tu jest jakeis zadanie</label>
-        <input type="date">
-        <i>&#9747;</i>
-        <br>
-    </div>
-</div>
-
 
 <br>
-<form>
-    <input type="text" id="task" name="task">
-    <input type="date">
-    <input type="submit" value="Dodaj">
+<form id="taskForm">
+    <input type="text" id="task" name="task" placeholder="Dodaj nowe zadanie :)" required>
+    <input type="date" id="date" name="date">
+    <input type="submit" value="Zapisz">
 </form>
-
 
 </body>
 </html>

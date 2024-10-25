@@ -1,20 +1,38 @@
-.task{
+
+
+body {
+    font-family: Arial, sans-serif;
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+}
+.wyszukiwarka {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+}
+.wyszukiwarka i {
+    margin-right: 5px;
+}
+.cont1 {
+    margin-bottom: 10px;
     border-style: groove;
-    padding: 5px;
 }
-
-.cont1{
-    width: 70%;
-    font-family: 'Courier New', monospace;
+.task {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+    border-bottom: dotted;
 }
-
-i{
-    float: right;
-    padding-right: 10px;
+.delete-icon {
+    cursor: pointer;
+    color: red;
 }
-
-.wyszukiwarka{
-    width: 30%;
-
+.highlight {
+    background-color: yellow;
 }
-
+.edit-input {
+    font-size: 1em;
+    width: 100%;
+}
