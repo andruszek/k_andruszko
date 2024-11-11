@@ -1,0 +1,41 @@
+#map {
+    width: 600px;
+    height: 300px;
+    border: 1px solid black;
+
+}
+
+#rasterMapContainer, #puzzle-container {
+    margin-top: 20px;
+}
+
+#puzzle-pieces, #drop-zone {
+    display: grid;
+    width: 600px;
+    grid-template-columns: repeat(4, 150px);
+    grid-template-rows: repeat(4, 75px);
+    gap: 2px;
+
+}
+
+.puzzle-piece, .drop-cell {
+    width: 150px;
+    height: 75px;
+    border: 1px solid #b891c9;
+    background-color: #ddd;
+}
+
+.drop-cell {
+    background-color: #8704de;
+}
+
+.draggable {
+    cursor: pointer;
+}
+
+.dragging {
+    opacity: 0.5;
+}
+
+
+
