@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <script defer src="skrypt.js"></script>
+    <title>lab-d</title>
+</head>
+<body>
+<div class="lokalizacja">
+    <input type="text" id="pogodaMiasto" name="search" placeholder="Wpisz miasto...">
+    <button id="przycisk" onclick="sprawdzPogode()">Sprawdz pogode</button>
+
+    <div id="pogodaHolder">
+        <p id="temperatura"></p>
+        <p id="opisPogody"></p>
+        <img id="ikonaBiezaca" src="" alt="" style="display: none; width: 50px; height: 50px;">
+    </div>
+    <div id="prognozaHolder">
+        <h3>Prognoza 5-dniowa:</h3>
+        <ul id="prognozaLista"></ul>
+    </div>
+
+</div>
+</body>
+</html>
