@@ -1,0 +1,96 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #979797FF;
+    color: #333;
+}
+
+
+.lokalizacja {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+#pogodaMiasto {
+    width: 300px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    outline: none;
+}
+
+#pogodaMiasto:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+#przycisk {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#przycisk:hover {
+    background-color: #0056b3;
+}
+
+#pogodaHolder,
+#prognozaHolder {
+    background: #7ab0c4;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 20px auto;
+    width: 90%;
+    max-width: 500px;
+    text-align: center;
+}
+
+#pogodaHolder p {
+    margin: 10px 0;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#pogodaHolder img {
+    margin-top: 10px;
+}
+
+#prognozaHolder h3 {
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #007bff;
+}
+
+#prognozaLista {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#prognozaLista li {
+    background: #ceeda0;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 10px;
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#prognozaLista li img {
+    width: 40px;
+    height: 40px;
+}

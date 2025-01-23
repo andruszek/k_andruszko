@@ -1,0 +1,17 @@
+# Ignorowanie plików binarnych
+*.exe
+*.dll
+*.so
+*.bin
+*.o
+*.a
+*.class
+*.pyc
+
+# Ignorowanie katalogów build i dist
+/build/
+/dist/
+
+/node_modules/
+/.idea/
+/.vscode/
